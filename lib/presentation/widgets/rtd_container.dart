@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 
 class RTDContainer extends StatelessWidget {
   final int index;
-  final Color borderColor;
   const RTDContainer({
     Key? key,
     required this.listOfHolidays,
     required this.index,
-    this.borderColor = Colors.black,
   }) : super(key: key);
 
   final List<String> listOfHolidays;
@@ -23,10 +21,7 @@ class RTDContainer extends StatelessWidget {
         alignment: Alignment.center,
         padding: const EdgeInsets.all(5),
         decoration: BoxDecoration(
-          border: Border.all(
-            color: borderColor,
-            width: 3,
-          ),
+          border: Border.all(color: Colors.black, width: 3),
           borderRadius: BorderRadius.circular(15),
         ),
         width: double.infinity,

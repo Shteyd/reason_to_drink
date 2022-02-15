@@ -1,23 +1,25 @@
 name: reason_to_drink
 description: A new Flutter project.
 
-publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.16.0-80.1.beta <3.0.0"
 
 dependencies:
-  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
   html: ^0.15.0
-  http: ^0.13.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: ^1.5.3
+
+  flutter_lints: ^1.0.0
 
 flutter:
 
@@ -26,7 +28,6 @@ flutter:
   fonts:
     - family: Ubuntu
       fonts:
-        - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
-        - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+        - asset: fonts/Ubuntu/Ubuntu-Regular.ttf
+        - asset: fonts/Ubuntu/Ubuntu-Bold.ttf
           weight: 700
-

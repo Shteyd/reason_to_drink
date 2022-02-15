@@ -1,9 +1,10 @@
-# Reason To Drink App
+# reason_to_drink
 
-<br>
-<br>
+Проект написан на Flutter.
 
-"Reason To Drink" project written on Flutter.
+## В чем идея приложения:
+Дать людям возможность смотреть праздники в удобном формате.
 
-## How to build
-Clone the project through `git clone https://github.com/Shteyd/reason_to_drink` and run `flutter build ...` or `flutter run`
+## Как создать приложение:
+- Клонировать проект `git clone https://github.com/Shteyd/reason_to_drink.git`
+- Запустить: `flutter build ...` или `flutter run`
